@@ -446,8 +446,8 @@ public class HGWordNetLoader
 			System.out.println("Usage: HGWordnetLoader dictionaryLocation hypergraphDBLocation");
 			System.exit(0);
 		}
-		traverse(HGEnvironment.get(args[1]));
-		if (1==1)return;
+		//traverse(HGEnvironment.get(args[1]));
+		//if (1==1)return;
 		
 		HGWordNetLoader loader = new HGWordNetLoader();
 		loader.setDictionaryLocation(args[0]);
